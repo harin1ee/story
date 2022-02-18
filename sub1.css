@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+color: #353535;
+}
+
+body{
+    font-family: "GmarketSansMedium";
+    font-size: 14px;
+    min-width: 1350px;
+}
+
+.text-spacing{
+    letter-spacing: 1.5px;
+}
+
+#header_inner{
+    margin: 0 auto;
+    width: 1320px;
+    height: 278px;
+}
+
+#nav{
+    float: right;
+    padding-top: 20px;
+}
+
+#nav li{
+    float: left;
+    margin-left: 20px;
+}
+
+#container{
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+}
+
+#menu{
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+}
+
+#menu>li{
+    float: left;
+    padding: 15px 0;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu>li>a{
+    font-family: "raleway";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#logo{
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+/*brand*/
+#brand{
+    margin: 70px auto;
+    width: 1320px;
+    height: 380px;
+    text-align: center;
+    background: url(images/brand1.png) no-repeat;
+}
+
+#brand h3{
+    color: #5f6162;
+    font-family: "raleway";
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-weight: 600;
+}
+
+#brand h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/*text*/
+#text1{
+    margin: 0 auto;
+    width: 1320px;
+    height: 230px;
+    text-align: center;
+    color: #353535;
+}
+
+#text1 h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#text1 h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 21px;
+    padding-bottom: 25px;
+}
+
+#text1 p{
+    font-size: 20px;
+    font-family: 'GmarketSansLight';
+}
+
+#text2{
+    margin: 0 auto;
+    width: 1320px;
+    height: 230px;
+    text-align: center;
+    color: #353535;
+}
+
+#text2 h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+#text2 h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 21px;
+    padding-bottom: 25px;
+}
+
+#text2 p{
+    font-size: 20px;
+    font-family: 'GmarketSansLight';
+}
+
+/*brand_product*/
+#brand_product{
+    width: 1320px;
+    height: 551px;
+    margin: 0 auto;
+    padding: 94px 0;
+}
+
+/*text*/
+#text3{
+    margin: 0 auto;
+    width: 1320px;
+    height: 180px;
+    text-align: center;
+    color: #353535;
+}
+
+#text3 h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#text3 h3{
+    font-size: 24px;
+    font-family: "raleway";
+    font-weight: 500;
+    padding-top: 21px;
+    padding-bottom: 25px;
+}
+
+.font{
+    font-family: "raleway";
+    font-size: 20px;
+}
+
+#text3 p{
+    font-size: 20px;
+    font-family: 'GmarketSansLight';
+}
+
+#text4{
+    margin: 0 auto;
+    width: 1320px;
+    height: 160px;
+    text-align: center;
+    color: #353535;
+    padding-top: 40px;
+    padding-bottom: 290px;
+}
+
+#text4 h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+#text4 p{
+    font-size: 20px;
+    font-family: 'GmarketSansLight';
+}
+
+#project{
+    margin: 0 auto;
+    width: 1320px;
+}
+
+#project h2{
+    font-family: "raleway";
+    font-size: 30px;
+    width: 150px;
+    border-bottom: #353535 1px solid;
+    margin-left: 580px;
+}
+
+#save{
+    margin: 0 auto;
+    width: 1100px;
+    padding-top: 50px;
+    padding-bottom: 280px;
+}
+
+/*footer*/
+#footer_inner{
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+}
+
+#ft_menu{
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+}
+
+#ft_menu>li{
+    float: left;
+    padding: 15px 0;
+    width: 155px;
+    text-align: left;
+}
+
+#ft_menu>li>a{
+    font-family: "raleway";
+    font-size: 14px;
+    font-weight: 550;
+}
+
+#footer_bottom{
+    width: 1320px;
+    margin: 0 auto;
+    height: 320px;
+}
+
+#fb_inner1{
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+}
+
+.call{
+    font-size: 18px;
+    font-family: "GmarketSansMedium";
+    color: #353535;
+    float: left;
+    padding-top: 60px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.mail{
+    font-size: 18px;
+    font-family: "GmarketSansMedium";
+    float: left;
+    color: #353535;
+    padding-top: 60px;
+    padding-left: 130px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.mini_logo{
+    padding-top: 70px;
+    float: right;
+}
+
+#fb_inner2{
+    margin: 0 auto;
+    width: 1200px;
+    height: 50px;
+    font-family: "G마켓 산스";
+    font-weight: lighter;
+    font-size: 12px;
+    float: left;
+    padding-left: 60px;
+}
+
+.time{
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-family: "GmarketSansLight";
+    font-size: 12px;
+}
+
+.info{
+    line-height: 25px;
+    font-family: "GmarketSansLight";
+    font-size: 12px;
+}
+
+
